@@ -1,0 +1,69 @@
+.customButton {
+  width: 100%;
+  height: 40px;
+  min-height: 40px;
+  outline: 0;
+  border-radius: 4px;
+  background-color: orangered;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+  &:hover {
+    background-color: goldenrod;
+  }
+  &:active {
+    transform: scale(0.9);
+  }
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .loader {
+    display: flex;
+    align-items: center;
+    .bar {
+      display: inline-block;
+      width: 3px;
+      height: 15px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 10px;
+      animation: scale-up4 1s linear infinite;
+      &:nth-child(2) {
+        height: 25px;
+        margin: 0 5px;
+        animation-delay: 0.25s;
+      }
+      &:nth-child(3) {
+        animation-delay: 0.5s;
+      }
+    }
+  }
+  &.isLInk {
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+    display: inline-flex;
+  }
+}
+
+@keyframes scale-up4 {
+  20% {
+    background-color: #ffff;
+    transform: scaleY(1.5);
+  }
+
+  40% {
+    transform: scaleY(1);
+  }
+}

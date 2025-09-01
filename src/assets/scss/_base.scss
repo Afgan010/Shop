@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  &:hover {
+    color: blue;
+  }
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}

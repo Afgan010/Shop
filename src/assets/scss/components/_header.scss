@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  background-color: #000000;
+  .container {
+    .row {
+      justify-content: space-between;
+      align-items: center;
+
+      .logo {
+        a {
+          font-size: 20px;
+          font-weight: 700;
+          color: #ffffff;
+        }
+      }
+      .navBar {
+        .navList {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          .navItem {
+            padding: 12px 0;
+            color: #ffffff;
+            display: flex;
+            a {
+              color: #ffffff;
+              &:hover {
+                color: orange;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

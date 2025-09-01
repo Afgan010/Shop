@@ -1,0 +1,12 @@
+@use "./base";
+
+//componenets
+@use "./components/header";
+@use "./components/product-card";
+@use "./components/custom-button";
+@use "./components/loading";
+
+//pages
+@use "./pages/home";
+@use "./pages/shop";
+@use "./pages/shop-details";
