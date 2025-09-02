@@ -5,8 +5,10 @@
 @use "./components/product-card";
 @use "./components/custom-button";
 @use "./components/loading";
+@use "./components/cart";
 
 //pages
 @use "./pages/home";
 @use "./pages/shop";
 @use "./pages/shop-details";
+@use "./pages/cart-page";

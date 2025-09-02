@@ -1,14 +1,14 @@
 const Loading = () => {
   return (
-    <div class="loader">
-      <span class="l">
+    <div className="loader">
+      <span className="l">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 11 18"
           height="18"
           width="11"
-          class="letter"
+          className="letter"
         >
           <path
             fill="black"
@@ -16,14 +16,14 @@ const Loading = () => {
           ></path>
         </svg>
       </span>
-      <span class="o">
+      <span className="o">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 16 18"
           height="18"
           width="16"
-          class="letter"
+          className="letter"
         >
           <path
             fill="black"
@@ -31,14 +31,14 @@ const Loading = () => {
           ></path>
         </svg>
       </span>
-      <span class="a">
+      <span className="a">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 15 18"
           height="18"
           width="15"
-          class="letter"
+          className="letter"
         >
           <path
             fill="black"
@@ -46,14 +46,14 @@ const Loading = () => {
           ></path>
         </svg>
       </span>
-      <span class="d">
+      <span className="d">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 14 18"
           height="18"
           width="14"
-          class="letter"
+          className="letter"
         >
           <path
             fill="black"
@@ -61,14 +61,14 @@ const Loading = () => {
           ></path>
         </svg>
       </span>
-      <span class="ispan">
+      <span className="ispan">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 6 17"
           height="18"
           width="6"
-          class="letter i"
+          className="letter i"
         >
           <path
             fill="black"
@@ -76,14 +76,14 @@ const Loading = () => {
           ></path>
         </svg>
       </span>
-      <span class="n">
+      <span className="n">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 13 18"
           height="18"
           width="13"
-          class="letter"
+          className="letter"
         >
           <path
             fill="black"
@@ -91,14 +91,14 @@ const Loading = () => {
           ></path>
         </svg>
       </span>
-      <span class="g">
+      <span className="g">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 15 18"
           height="18"
           width="15"
-          class="letter"
+          className="letter"
         >
           <path
             fill="black"

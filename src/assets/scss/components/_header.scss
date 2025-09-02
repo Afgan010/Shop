@@ -28,6 +28,16 @@
                 color: orange;
               }
             }
+            svg {
+              width: 24px;
+              height: 24px;
+              cursor: pointer;
+              fill: #fff;
+              &:hover {
+                transform: scale(1.05);
+                fill: orangered;
+              }
+            }
           }
         }
       }

@@ -1,11 +1,13 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ShopService } from "../Services/ShopService";
 import CustomButton from "../../../components/CustomButton";
 import Loading from "../../../components/Loading";
+import { ProductStore } from "../../../context/ProductsContext";
 
 const ShopDetails = () => {
   const { productId } = useParams();
+  const { addToCart } = useContext(ProductStore);
   const [loading, setLoading] = useState(false);
   const [productDetails, setProductDetails] = useState({
     title: "",
@@ -55,7 +57,10 @@ const ShopDetails = () => {
             </div>
             <p className="details">{productDetails.description}</p>
             <p className="price">{productDetails.price} AZN</p>
-            <CustomButton text={"Add to cart"} onClick={() => {}} />
+            <CustomButton
+              text={"Add to cart"}
+              onClick={() => addToCart(productDetails)}
+            />
           </div>
         </div>
       </div>

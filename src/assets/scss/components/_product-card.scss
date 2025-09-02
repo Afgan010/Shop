@@ -41,3 +41,26 @@
     }
   }
 }
+
+.inCartProduct {
+  width: 100%;
+  display: flex;
+  .productImage {
+    width: 100px;
+    height: 100px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    .title {
+      font-size: 16px;
+    }
+    .btnGroup {
+      span {
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+  }
+}

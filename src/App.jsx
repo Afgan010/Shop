@@ -3,10 +3,11 @@ import Home from "./Modules/Home/View/Home";
 import Shop from "./Modules/Shop/View/Shop";
 import Header from "./components/Header";
 import ShopDetails from "./Modules/Shop/View/ShopDetails";
+import { ProductContext } from "./context/ProductsContext";
 
 const App = () => {
   return (
-    <>
+    <ProductContext>
       <Header />
       <main>
         <Routes>
@@ -15,7 +16,7 @@ const App = () => {
           <Route path="/shop-details/:productId" element={<ShopDetails />} />
         </Routes>
       </main>
-    </>
+    </ProductContext>
   );
 };
 

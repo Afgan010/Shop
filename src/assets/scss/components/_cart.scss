@@ -1,0 +1,39 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  &.active {
+    display: block;
+  }
+}
+
+.cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  display: none;
+  flex-direction: column;
+  gap: 24px;
+  padding: 12px;
+  z-index: 10000;
+
+  &.active {
+    display: flex;
+  }
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    svg {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
+  }
+}

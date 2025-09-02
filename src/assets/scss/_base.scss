@@ -15,6 +15,13 @@ img {
   object-fit: cover;
 }
 
+.btnGroup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 a {
   color: rgb(255, 255, 255);
   &:hover {
